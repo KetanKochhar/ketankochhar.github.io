@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ketan Kochhar - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body class="dark-mode">
+    <nav>
+        <div class="container nav-container">
+            <h1 class="logo">KK</h1>
+            <div class="nav-right">
+                <button id="theme-toggle" aria-label="Toggle theme">
+                    <i data-feather="moon"></i>
+                </button>
+                <button class="menu-toggle" aria-label="Toggle menu">
+                    <i data-feather="menu"></i>
+                </button>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="about">
+        <div class="container">
+            <h1>Ketan Kochhar</h1>
+            <h2>B.Tech Student & Cybersecurity Enthusiast</h2>
+            <p>I'm a B.Tech student at Silver Oak University, passionate about tech and innovation. I love building hands-on projects around cybersecurity, automation, and web development. I've completed the CEH (Certified Ethical Hacker) beginner level and my long-term vision is to help build a safer, more secure internet for everyone.</p>
+        </div>
+    </header>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <i data-feather="lock"></i>
+                    <h3>Keylogger</h3>
+                    <span class="tag">Python</span>
+                    <p>A lightweight keylogger built with Python that captures and stores user keystrokes securely.</p>
+                </div>
+                <div class="project-card">
+                    <i data-feather="wifi"></i>
+                    <h3>Nmap Automation Script</h3>
+                    <span class="tag">Python</span>
+                    <p>Python-based script that automates Nmap scans for quick and efficient network reconnaissance.</p>
+                </div>
+                <div class="project-card">
+                    <i data-feather="coffee"></i>
+                    <h3>Canteen Web App</h3>
+                    <span class="tag">Node.js</span>
+                    <span class="tag">SQLite</span>
+                    <p>A college-focused canteen management system with menu display, order placement, and billing.</p>
+                </div>
+                <div class="project-card">
+                    <i data-feather="video"></i>
+                    <h3>AI Video Editor</h3>
+                    <span class="tag">Python</span>
+                    <span class="tag">OpenCV</span>
+                    <p>A video editing assistant using AI to detect highlights and cut footage automatically.</p>
+                </div>
+                <div class="project-card">
+                    <i data-feather="mic"></i>
+                    <h3>Jarvis</h3>
+                    <span class="tag">Python</span>
+                    <p>A custom-built virtual assistant that performs system commands and responds to voice commands.</p>
+                </div>
+                <div class="project-card">
+                    <i data-feather="cpu"></i>
+                    <h3>Arduino Robot</h3>
+                    <span class="tag">Arduino</span>
+                    <span class="tag">C++</span>
+                    <p>A simple robot built using Arduino with motor and sensor integration.</p>
+                </div>
+                <div class="project-card">
+                    <i data-feather="activity"></i>
+                    <h3>Non-Invasive Glucose Meter</h3>
+                    <span class="tag">Concept</span>
+                    <p>A research project exploring needle-free glucose monitoring using light sensors.</p>
+                </div>
+                <div class="project-card">
+                    <i data-feather="database"></i>
+                    <h3>SQL Injection Vulnerability App</h3>
+                    <span class="tag">Web</span>
+                    <span class="tag">Security</span>
+                    <p>A purposely vulnerable app used to understand SQL injection attacks and defenses.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">C++</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & Frameworks</h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">SQLite</span>
+                        <span class="skill-tag">Arduino</span>
+                        <span class="skill-tag">Nmap</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Domains & Interests</h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">Cybersecurity</span>
+                        <span class="skill-tag">Ethical Hacking</span>
+                        <span class="skill-tag">Automation</span>
+                        <span class="skill-tag">AI</span>
+                        <span class="skill-tag">Networking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-links">
+                <a href="mailto:gmketan@gmail.com" class="contact-item">
+                    <i data-feather="mail"></i>
+                    <span>gmketan@gmail.com</span>
+                </a>
+                <a href="https://github.com/KetanKochhar" target="_blank" class="contact-item">
+                    <i data-feather="github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://tryhackme.com/p/KetanKochhar" target="_blank" class="contact-item">
+                    <i data-feather="shield"></i>
+                    <span>TryHackMe</span>
+                </a>
+                <a href="https://linkedin.com/in/ketan-kochhar-0a9582324" target="_blank" class="contact-item">
+                    <i data-feather="linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ketan Kochhar. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+<
